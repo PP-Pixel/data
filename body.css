@@ -12,7 +12,7 @@ p {
     width: 60%;
     line-height: 2;
     display: inline-block;
-    background-color: #197e00;
+    background-color: #557151;
     padding: 20px;
     position: relative;
     z-index: 999;
@@ -25,10 +25,10 @@ p {
 a {
     color: #fff;
     text-decoration: none;
-    background-color: #0c9600;
+    background-color: #557151;
     display: block;
     padding: 15px 25px;
-    box-shadow: 0 4px 0 0 #006419;
+    box-shadow: 0 4px 0 0 #42583f;
     font-weight: bold;
     width: 300px;
     text-align: center;
@@ -54,7 +54,7 @@ h1::after {
 }
  
 html {
-    background-color: #52724e;
+    background-color: #557151;
 }
  
 body {
