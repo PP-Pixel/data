@@ -1,19 +1,19 @@
 {
-  "name"              : "ClockNew3",
-  "short_name"        : "ClockNew3",
-  "description"       : "ClockNew3",
-  "start_url"         : "https://pp-pixel.github.io/home/clock/3/",
-  "id"         : "ClockNew3",
+  "name"              : "Clock3.io",
+  "short_name"        : "Clock3.io",
+  "description"       : "Clock v3",
+  "start_url"         : "https://pp-pixel.github.io/clock3/",
+  "id"         : "Clock3",
   "display_override": ["fullscreen"],
   "display"           : "standalone",
   "background_color"  : "#FFFFFF",
   "theme_color"       : "#FFFFFF",
   "icons": [{
-      "src"           : "https://pp-pixel.github.io/home/clock/3/icon-192.png",
+      "src"           : "https://pp-pixel.github.io/clock3/icon-192.png",
       "sizes"         : "192x192",
       "type"          : "image/png"
     }, {
-      "src"           : "https://pp-pixel.github.io/home/clock/3/icon-256.png",
+      "src"           : "https://pp-pixel.github.io/clock3/icon-256.png",
       "sizes"         : "256x256",
       "type"          : "image/png"
   }]
