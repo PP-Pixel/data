@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+
+/*要素全体のセンタリング*/
+
+html {
+    display: table;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #e3fffe;
+}
+
+body {
+    color: #4A4C54;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    /*display: flex;*/
+    align-items: center;
+    --l: 3.5em;
+}
+
+span {
+    display: block;
+    width: 100%;
+    /*color: #4A4C54;*/
+    mix-blend-mode: normal;
+    text-shadow: 2px 2px 4px #00000080;
+    height: 100%;
+}
+
+div#clock_frame {
+    width: 100%;
+}
+
+span#clock_date {
+    text-align: center;
+    font-size: calc(15px + 1.5vw)
+}
+
+span#clock_time {
+    font-size: calc(43px + 5.8vw)
+}
+
+.wrapper {
+    width: auto;
+}
+
+.wrapper a {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.customBox {
+    display: none;
+}
+
+.customBox+label {
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    height: var(--l);
+    width: var(--l);
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 2px 2px 4px #00000080;
+}
+
+.customBox+label:before,
+.customBox+label:after {
+    position: absolute;
+    content: '';
+    height: calc(var(--l) / 2);
+    width: .25em;
+    background-color: #252525;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: .5em;
+    transition: all .25s;
+}
+
+.customBox+label:before {
+    height: calc(var(--l) / 2);
+    width: .25em;
+}
+
+.customBox+label:after {
+    width: calc(var(--l) / 2);
+    height: .25em;
+}
+
+.customBox:checked+label:before {
+    transform: rotatez(-45deg);
+}
+
+.customBox:checked+label:after {
+    transform: rotatez(-45deg);
+}
+
+.one,
+.two,
+.three {
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    padding: 1em;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: 1;
+    transform: rotateZ(90deg);
+    font-size: 1em;
+    color: #252525;
+    transition-property: all;
+    transition-duration: .35s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.customBox:checked~.one,
+.customBox:checked~.two,
+.customBox:checked~.three {
+    opacity: 1;
+}
+
+.customBox:checked~.one {
+    /*background-color: purple;*/
+    transform: translateX(-5em);
+    transition-delay: .2s;
+}
+
+.customBox:checked~.two {
+    /*background-color: slateblue;*/
+    transform: translateX(-3.5em) translateY(-3.5em);
+    transition-delay: .1s;
+}
+
+.customBox:checked~.three {
+    /*background-color: mediumorchid;*/
+    transform: translateY(-5em);
+}
+
+.customBox:checked~.one:hover,
+.customBox:checked~.two:hover,
+.customBox:checked~.three:hover {
+    opacity: .9;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?pua4yk');
+    src: url('fonts/icomoon.eot?pua4yk#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?pua4yk') format('truetype'), url('fonts/icomoon.woff?pua4yk') format('woff'), url('fonts/icomoon.svg?pua4yk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-info:before {
+    content: "\ea0c";
+}
+
+.icon-cog:before {
+    content: "\e994";
+}
+
+.icon-heart:before {
+    content: "\e9da";
+}
+
+
+/*modal*/
+
+.modal-wrap {
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    -webkit-animation: fadein 0.2s linear 0s 1;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.modal-wrap .modal-overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background: #000;
+    opacity: 0.2;
+}
+
+.modal-wrap .modal-countent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2147483651;
+    margin: auto;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.modal-wrap .close-icon {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #777;
+}
+
+.modal-wrap .close-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-decoration: none;
+    font-size: 100%;
+    display: block;
+    padding: 8px;
+    margin: 0 auto;
+    width: 100px;
+    background: #f19072;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.modal-wrap:target {
+    display: block;
+}
+
+div#modal {
+    width: 600px;
+    height: 320px;
+    max-width: 80%
+}
+
+.color-palette {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: table-cell;
+    /* 子要素はテーブルセル要素にする */
+    vertical-align: middle;
+    /* 上下中央に寄せる */
+}
+
+
+/*button*/
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .4s;
+    /*padding:  0.3%;         /* 余白指定 */
+    /*border-radius:  5px;    /* 角丸指定 */
+    margin: 5px;
+    /* 周りの余白指定 */
+}
+
+.btn:hover {
+    opacity: 0.6;
+    /* カラーフィルタ効果の度合いを指定(※) */
+}
+
+body {
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+
+/*DarkTheme*/
+
+
+/*@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #4A4C54;
+    }
+    span {
+        color: #ececec;
+    }
+    .one,
+    .two,
+    .three,
+    .customBox+label {
+        background-color: #6e717c;
+    }
+}*/
