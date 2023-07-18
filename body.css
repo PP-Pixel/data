@@ -46,7 +46,7 @@ h1::after {
     display: block;
     border-bottom: solid 5px #76b600;
     position: absolute;
-    width: 500px;
+    width: 80%;
     right: 0;
     left: 0;
     margin: auto;
