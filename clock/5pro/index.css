@@ -1,0 +1,9 @@
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #ffffff;
+}
+html,body {
+    cursor: none;
+    user-select: none;
+    color: #ffffff;
+}
