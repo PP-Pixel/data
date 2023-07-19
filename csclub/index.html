@@ -18,7 +18,7 @@
 	</style>
 	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
 	<script>function onSubmit(token) {document.getElementById("demo-form").submit();}</script>
-	<script>if ("serviceWorker" in navigator) {window.addEventListener("load", function () {navigator.serviceWorker.register("sw.js").then(function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ",registration.scope);},function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});}</script>
+	<script>if ("serviceWorker" in navigator) {window.addEventListener("load", function () {navigator.serviceWorker.register("https://pp-pixel.github.io/csclub/sw.js").then(function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ",registration.scope);},function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});}</script>
 </head>
 <body>
 	<div class="container">
