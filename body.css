@@ -2,6 +2,7 @@
 body {
     font-family: 'Kumbh Sans','Noto Sans JP', sans-serif;
     cursor: default;
+    user-select: none;
 }
 
 /* @media screen and (max-width: 768px) { */
