@@ -1,94 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Noto+Sans+JP&display=swap');
+
 body {
-    font-family: 'Kumbh Sans','Noto Sans JP', sans-serif;
+    font-family: 'Kumbh Sans', 'Noto Sans JP', sans-serif;
     cursor: default;
     user-select: none;
-    -webkit-user-select:none;
+    -webkit-user-select: none;
 }
 
 /* @media screen and (max-width: 768px) { */
-    html {
-        background-color: #557151;
-    }
-    h1 {
-        font-weight: normal;
-        padding-bottom: 10px;
-        text-align: center;
-        position: relative;
-        margin-top: 30px;
-        letter-spacing: 5px;
-    }
+html {
+    background-color: #557151;
+}
 
-    .pro {
-        font-size: x-large;
-        width: 70%;
-        line-height: 2;
-        display: inline-block;
-        background-color: #557151;
-        padding: 20px;
-        position: relative;
-        z-index: 999;
-        margin: 50px 0 0;
-        color: #fff;
-        letter-spacing: 6px;
-        border-radius: 40px;
-    }
-    .c {
-        width: 70%;
-        line-height: 2;
-        display: inline-block;
-        background-color: #557151;
-        padding: 20px;
-        position: relative;
-        z-index: 999;
-        margin: 50px 0 0;
-        color: #fff;
-        letter-spacing: 2px;
-        border-radius: 40px;
-        cursor: default;
-    }
+h1 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
 
-    a {
-        color: #fff;
-        text-decoration: none;
-        background-color: #557151;
-        display: block;
-        padding: 15px 25px;
-        box-shadow: 0 4px 0 0 #42583f;
-        /* font-weight: bold; */
-        width: 50%;
-        text-align: center;
-        margin: auto;
-        letter-spacing: 5px;
-        border-radius: 20px;
-        cursor: pointer;
-    }
+.pro {
+    font-size: x-large;
+    width: 70%;
+    line-height: 2;
+    display: inline-block;
+    background-color: #557151;
+    padding: 20px;
+    position: relative;
+    z-index: 999;
+    margin: 50px 0 0;
+    color: #fff;
+    letter-spacing: 6px;
+    border-radius: 40px;
+}
 
-    .btnarea {
-        text-align: center;
-        display: block;
-    }
-    h1::after {
-        content: "";
-        display: block;
-        border-bottom: solid 5px #76b600;
-        position: absolute;
-        width: 80%;
-        right: 0;
-        left: 0;
-        margin: auto;
-        bottom: -5px;
-    }
+.c {
+    width: 70%;
+    line-height: 2;
+    display: inline-block;
+    background-color: #557151;
+    padding: 20px;
+    position: relative;
+    z-index: 999;
+    margin: 50px 0 0;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    cursor: default;
+}
 
-    body {
-        background-color: #fff;
-        padding: 30px 30px 30px;
-        max-width: 80%;
-        margin: 40px auto;
-        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
-        border-radius: 50px;
-        position: relative;
-    }
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #557151;
+    display: block;
+    padding: 15px 25px;
+    box-shadow: 0 4px 0 0 #42583f;
+    /* font-weight: bold; */
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btnarea {
+    text-align: center;
+    display: block;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    border-bottom: solid 5px #76b600;
+    position: absolute;
+    width: 80%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -5px;
+}
+
+body {
+    background-color: #fff;
+    padding: 30px 30px 30px;
+    max-width: 80%;
+    margin: 40px auto;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.18);
+    border-radius: 50px;
+    position: relative;
+}
 
 /* img {
     height: 300px;
@@ -98,9 +102,10 @@ body {
     right: 30px;
     border-radius: 20px;
 } */
-    span {
-        background:linear-gradient(transparent 70%, rgb(100, 207, 0) 60%);
-        border-radius: 10px;
-    }
+span {
+    background: linear-gradient(transparent 70%, rgb(100, 207, 0) 60%);
+    border-radius: 10px;
+}
+
 /* } */
 /* @media screen and (max-width:480px) {} */
