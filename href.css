@@ -1,4 +1,4 @@
-a:hover {
+.btn-open:hover {
   color: #557151;
   font-size: 2em;
   /*文字サイズ2倍*/
@@ -53,6 +53,59 @@ a:hover {
 }
 
 .btn-open:active:after {
+  height: 340%;
+  opacity: 1;
+}
+
+
+.btn-open2:hover {
+  color: #557151;
+  /* font-size: 1em;
+  文字サイズ1倍 */
+  font-weight: bold;
+}
+
+.btn-open2 {
+  display: inline-block;
+  /* width: 60%; */
+  height: 50px;
+  text-align: center;
+  background-color: #557151;
+  font-size: 20px;
+  line-height: 52px;
+  color: #FFF;
+  text-decoration: none;
+  /* font-weight: bold; */
+  border: 2px solid #557151;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-open2:after {
+  width: 100%;
+  height: 0;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #FFF;
+  opacity: 0;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transition: .2s;
+  z-index: -1;
+}
+
+.btn-open2:hover {
+  color: #557151;
+}
+
+.btn-open2:hover:after {
+  height: 240%;
+  opacity: 1;
+}
+
+.btn-open2:active:after {
   height: 340%;
   opacity: 1;
 }

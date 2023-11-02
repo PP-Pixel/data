@@ -102,10 +102,11 @@ body {
     right: 30px;
     border-radius: 20px;
 } */
-span {
+.h2 {
     background: linear-gradient(transparent 70%, rgb(100, 207, 0) 60%);
     border-radius: 10px;
 }
 
 /* } */
 /* @media screen and (max-width:480px) {} */
+
