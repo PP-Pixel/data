@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+}
+
+header {
+    width: 80%;
+    margin: 100px auto auto;
+    border-radius: 50px 50px 10px 10px;
+    background-color: #4d7fae;
+    font-family: 'Google Sans', sans-serif;
+}
+
+footer {
+    background-color: #4d7fae;
+    height: 80px;
+    border-radius: 10px 10px 50px 50px;
+    margin: 10px auto auto;
+    font-size: 120%;
+    padding-top: 1%;
+    font-family: 'Google Sans', sans-serif;
+}
+
+@font-face {
+    font-family: "Google Sans";
+    src:url("https://pp-pixel.github.io/hp/data/googlesans.owoff2") format("woff2")
+        url("https://pp-pixel.github.io/hp/data/googlesans.ttf") format("truetype")
+        url("https://pp-pixel.github.io/hp/data/googlesans.otf") format("opentype")
+        url("https://pp-pixel.github.io/hp/data/googlesans.owoff") format("woff");
+}
+body {
+    font-family: 'Google Sans','Noto Sans JP';
+}
+
+footer {
+	text-align: center;
+	background: #4e7eac;
+	color: rgb(255, 255, 255);
+	border-radius: 10px 10px 50px 50px;
+	width: 80%;
+	margin: 10px auto auto;
+	font-family: 'Google Sans', sans-serif;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+img .notLogo {
+    width: 450px;
+    vertical-align: bottom;
+}
+
+article {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+th {
+    display: none;
+}
+
+td {
+    font-size: 110%;
+    text-align: left;
+}
+
+.material-symbols-outlined {
+    font-size: 100%;
+}
