@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+<url>
+  <loc>https://pp-pixel.github.io/hp/</loc>
+  <priority>1.0</priority>
+  <lastmod>2023-12-08</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://pp-pixel.github.io/csclub/hp/old/</loc>
+  <priority>0.1</priority>
+  <lastmod>2023-12-08</lastmod>
+  <changefreq>never</changefreq>
+</url>
+
+
+</urlset>
