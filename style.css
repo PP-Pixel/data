@@ -193,7 +193,7 @@ li {
 
 .sns-button {
     display: block;
-    width: 170px;
+    width: 21vw;
     height: 120px;
     background-color: #8cac55;
     border-radius: 20px;
@@ -273,8 +273,8 @@ article {
 
 .footer-sp {
     padding: 10px;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 } 
 
 .gtag-sp {
@@ -282,5 +282,14 @@ article {
 }
 
 .kasen {
+    text-decoration: none;
+}
+
+.sns-button-sp {
+    display: block;
+    width: 42vw;
+    height: 120px;
+    background-color: #8cac55;
+    border-radius: 20px;
     text-decoration: none;
 }
