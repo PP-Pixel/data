@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+
+@font-face {
+    font-family: "Google Sans Text Medium";
+    src: url("./data/GoogleSansTextMedium.woff2") format("woff2");
+    src: url("./data/GoogleSansTextMedium.ttf") format("truetype");
+    src: url("./data/GoogleSansTextMedium.otf") format("opentype");
+    src: url("./data/GoogleSansTextMedium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Kumbh Sans', 'Noto Sans JP', 'Google Sans', 'Google Sans Text Medium', sans-serif;
+    background-color: #b3d874;
+}
+
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+@media only screen and (max-width: 750px) {
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+    }
+}
+
+.title {
+    background-image: url(./images/name.svg);
+    background-repeat: no-repeat;
+    background-size: 135px;
+    background-position: 30px center;
+    padding: 15px;
+}
+
+/* .title-icon {
+    vertical-align: middle;
+} */
+
+.side {
+    background-color: #b3d87400;
+    width: 30%;
+    height: 92.2vh;
+    font-family: 'Kumbh Sans', 'Noto Sans JP', sans-serif;
+    /* text-align: center; */
+}
+
+.side-links {
+    background-color: #dcf5b1;
+    width: 105%;
+    height: 100%;
+    /* text-align: center; */
+    margin-left: -5%;
+    border-radius: 0px 28px 0px 0px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 10px 0px 7%;
+    width: 88%;
+    align-items: center;
+}
+
+.link {
+    display: block;
+    height: 65px;
+    background-color: #8cac55;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #a1bd6d;
+}
+
+.link-name {
+    color: white;
+    padding: 20px 0px 0px 60px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.proimg {
+    cursor: pointer;
+    background-image: url(./images/profile.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.x {
+    background-image: url(./images/x.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.misskey {
+    background-image: url(./images/ringopai.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.youtube {
+    background-image: url(./images/youtube.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.discord {
+    background-image: url(./images/discord.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.blogger {
+    background-image: url(./images/blogger.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.g-hp {
+    background-image: url(./images/home.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.content {
+    background-color: #b3d87400;
+    width: 70%;
+    height: 92.2vh;
+    margin-top: 60px;
+    margin-left: 10%;
+    /* text-align: center; */
+    background-image: url(./images/android.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 98% bottom;
+    background-size: 100px;
+}
+
+.profile {
+    width: 70%;
+    border-radius: 16px;
+    padding: 10px 5% 10px 5%;
+    background-color: #dcf5b1;
+    font-size: 20px;
+}
+
+.content-title {
+    font-size: 35px;
+}
+
+.content-title2 {
+    font-size: 25px;
+}
+
+.sns {
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 16px;
+    padding: 10px 5% 10px 5%;
+    background-color: #dcf5b1;
+    font-size: 20px;
+}
+
+.yoko {
+    display: flex;
+}
+
+.yoko2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sns-box2 {
+    margin-left: 10px;
+}
+
+.sns-button {
+    display: block;
+    width: 170px;
+    height: 120px;
+    background-color: #8cac55;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.sns-button:hover {
+    background-color: #a1bd6d;
+}
+
+.sns-name {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.footer {
+    margin-left: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.gtag {
+    color: #647f37;
+    padding: 0px 0px 0px 15px;
+}
+
+.header {
+    margin-top: -22px;
+    margin-left: -5%;
+    width: 107%;
+    height: 70px;
+    background-color: #8cac55;
+    box-shadow: 0px 5px 5px #00000080;
+}
+
+.title-sp {
+    background-image: url(./images/name-white.svg);
+    background-repeat: no-repeat;
+    background-size: 135px;
+    background-position: 40px center;
+    padding: 35px;
+}
+
+.profile-sp {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 16px;
+    padding: 10px 5% 10px 5%;
+    background-color: #dcf5b1;
+    font-size: 20px;
+}
+
+.sns-sp {
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 16px;
+    padding: 10px 5% 10px 5%;
+    background-color: #dcf5b1;
+    font-size: 20px;
+}
+
+.footer-sp {
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+} 
+
+.gtag-sp {
+    color: #647f37;
+}
+
+.kasen {
+    text-decoration: none;
+}
