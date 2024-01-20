@@ -200,7 +200,10 @@ li {
     text-decoration: none;
 }
 
-.sns-button:hover {
+.sns-button:hover,
+.sns-button:active,
+.sns-button-sp:hover,
+.sns-button-sp:active {
     background-color: #a1bd6d;
 }
 
@@ -292,4 +295,8 @@ article {
     background-color: #8cac55;
     border-radius: 20px;
     text-decoration: none;
+}
+
+.grecaptcha-badge {
+    display: none;
 }
