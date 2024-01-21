@@ -286,6 +286,8 @@ article {
 
 .gtag-sp {
     color: #647f37;
+    cursor: pointer;
+    user-select: none;
 }
 
 .kasen {
