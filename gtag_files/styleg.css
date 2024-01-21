@@ -1,44 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+
+@font-face {
+    font-family: "Google Sans Text Medium";
+    src: url("./data/GoogleSansTextMedium.woff2") format("woff2");
+    src: url("./data/GoogleSansTextMedium.ttf") format("truetype");
+    src: url("./data/GoogleSansTextMedium.otf") format("opentype");
+    src: url("./data/GoogleSansTextMedium.woff") format("woff");
+}
+
 body {
     text-align: center;
+    background-color: #b7d77e;
+    font-family: 'Kumbh Sans', 'Noto Sans JP', 'Google Sans', 'Google Sans Text Medium', sans-serif;
 }
 
 header {
     width: 80%;
     margin: 60px auto auto;
     border-radius: 50px 50px 10px 10px;
-    background-color: #4d7fae;
-    font-family: 'Google Sans', sans-serif;
+    background-color: #647f37;
+    font-family: 'Kumbh Sans', 'Noto Sans JP', 'Google Sans', 'Google Sans Text Medium', sans-serif;
 }
 
 footer {
-    background-color: #4d7fae;
+    background-color: #647f37;
     height: 80px;
     border-radius: 10px 10px 50px 50px;
     margin: 10px auto auto;
     font-size: 120%;
     padding-top: 1%;
-    font-family: 'Google Sans', sans-serif;
-}
-
-@font-face {
-    font-family: "Google Sans";
-    src:url("https://pp-pixel.github.io/hp/data/googlesans.owoff2") format("woff2")
-        url("https://pp-pixel.github.io/hp/data/googlesans.ttf") format("truetype")
-        url("https://pp-pixel.github.io/hp/data/googlesans.otf") format("opentype")
-        url("https://pp-pixel.github.io/hp/data/googlesans.owoff") format("woff");
-}
-body {
-    font-family: 'Google Sans','Noto Sans JP';
+    font-family: 'Kumbh Sans', 'Noto Sans JP', 'Google Sans', 'Google Sans Text Medium', sans-serif;
 }
 
 footer {
 	text-align: center;
-	background: #4e7eac;
+	background: #647f37;
 	color: rgb(255, 255, 255);
 	border-radius: 10px 10px 50px 50px;
 	width: 80%;
 	margin: 10px auto auto;
-	font-family: 'Google Sans', sans-serif;
+	font-family: 'Kumbh Sans', 'Noto Sans JP', 'Google Sans', 'Google Sans Text Medium', sans-serif;
 }
 
 footer a {
@@ -51,11 +53,12 @@ img .notLogo {
 }
 
 article {
-    background-color: white;
+    background-color: #dff4b6;
     border-radius: 10px 10px 10px 10px;
     width: 80%;
     margin: auto;
     margin-top: 10px;
+    font-family: 'Kumbh Sans', 'Noto Sans JP', 'Google Sans', 'Google Sans Text Medium', sans-serif;
 }
 
 th {
