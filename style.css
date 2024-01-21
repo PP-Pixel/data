@@ -76,6 +76,7 @@ li {
     background-color: #8cac55;
     border-radius: 50px;
     text-decoration: none;
+    user-select: none;
 }
 
 .link:hover {
@@ -217,13 +218,16 @@ li {
 .footer {
     margin-left: 20px;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .copyright {
-    color: white;
+    /* color: white; */
+    color: #647f37;
     text-decoration: none;
+    cursor: pointer;
+    user-select: none;
 }
 
 article {
@@ -299,4 +303,17 @@ article {
 
 .grecaptcha-badge {
     display: none;
+}
+
+.font-big10 {
+    font-size: 110%;
+}
+
+.font-minus10 {
+    font-size: 80%;
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
 }

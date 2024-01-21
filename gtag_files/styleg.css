@@ -73,3 +73,7 @@ td {
 .material-symbols-outlined {
     font-size: 100%;
 }
+
+img {
+    pointer-events: none;
+}
