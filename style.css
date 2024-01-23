@@ -318,3 +318,13 @@ img {
     user-select: none;
     pointer-events: none;
 }
+
+.gtag:hover,
+.gtag:active {
+    text-decoration: none;
+}
+
+.gtag-sp:hover,
+.gtag-sp:active {
+    text-decoration: none;
+}
