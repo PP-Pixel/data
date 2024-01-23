@@ -14,6 +14,11 @@
 body {
     font-family: 'Kumbh Sans', 'Noto Sans JP', 'Google Sans', 'Google Sans Text Medium', sans-serif;
     background-color: #b3d874;
+    background-image: url(./images/android.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 98% bottom;
+    background-size: 100px;
 }
 
 .pc {
@@ -51,7 +56,6 @@ body {
     width: 30%;
     height: 92.2vh;
     font-family: 'Kumbh Sans', 'Noto Sans JP', sans-serif;
-    /* text-align: center; */
 }
 
 .side-links {
@@ -62,7 +66,6 @@ body {
     margin-left: -5%;
     border-radius: 0px 28px 0px 0px;
 }
-
 li {
     list-style: none;
     padding: 10px 10px 0px 7%;
@@ -147,11 +150,7 @@ li {
     margin-top: 60px;
     margin-left: 10%;
     /* text-align: center; */
-    background-image: url(./images/android.svg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 98% bottom;
-    background-size: 100px;
+    
 }
 
 .profile {
