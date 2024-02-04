@@ -49,3 +49,7 @@
         transform: translateY(0);
     }
 }
+
+p {
+    cursor: default;
+}
