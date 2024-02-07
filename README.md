@@ -1,3 +1,4 @@
+<meta name="robots" content="noindex">
 <a href="https://pp-pixel.github.io/hp/" target="_blank"><img src="https://pp-pixel.github.io/hp/images/SNS1.svg" width="800px"></a>  
 
   
