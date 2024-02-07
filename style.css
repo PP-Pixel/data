@@ -115,6 +115,14 @@ li {
     background-size: 30px;
 }
 
+.bluesky {
+    background-image: url(./images/bluesky.svg);
+    background-repeat: no-repeat;
+    background-position: 24px 20px;
+    background-size: 25px;
+}
+
+
 .youtube {
     background-image: url(./images/youtube.svg);
     background-repeat: no-repeat;
