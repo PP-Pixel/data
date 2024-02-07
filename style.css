@@ -122,7 +122,6 @@ li {
     background-size: 25px;
 }
 
-
 .youtube {
     background-image: url(./images/youtube.svg);
     background-repeat: no-repeat;
@@ -132,6 +131,13 @@ li {
 
 .discord {
     background-image: url(./images/discord.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 17px;
+    background-size: 30px;
+}
+
+.instagram {
+    background-image: url(./images/instagram.svg);
     background-repeat: no-repeat;
     background-position: 22px 17px;
     background-size: 30px;
