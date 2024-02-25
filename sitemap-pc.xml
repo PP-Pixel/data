@@ -12,6 +12,11 @@
   <lastmod>2023-12-08</lastmod>
   <changefreq>never</changefreq>
 </url>
-
+<url>
+  <loc>https://pp-pixel.github.io/hp/index.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2024-01-21</lastmod>
+  <changefreq>yearly</changefreq>
+</url>
 
 </urlset>

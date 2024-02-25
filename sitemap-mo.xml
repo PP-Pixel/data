@@ -14,5 +14,12 @@
   <changefreq>never</changefreq>
   <mobile:mobile />
 </url>
+<url>
+  <loc>https://pp-pixel.github.io/hp/index.html</loc>
+  <priority>0.5</priority>
+  <lastmod>2024-01-21</lastmod>
+  <changefreq>yearly</changefreq>
+  <mobile:mobile />
+</url>
 
 </urlset>
